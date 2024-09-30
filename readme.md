@@ -1,6 +1,6 @@
 # Homework 3
 
-## web4 link:
+## web4 link: https://in-info-web4.luddy.indianapolis.iu.edu/~jaydawso/N315/homework-three/
 
 You will be creating a full-site with at least 5 pages and they must all have content with images and text. Try duplicating a site you like.
 This must be a dynamic site, which means when I click on a link it injects the views into the page.
