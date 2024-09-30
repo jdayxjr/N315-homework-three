@@ -23,6 +23,12 @@ p {
   padding: 50px;
 }
 
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: lightskyblue;
+}
+
 nav {
   height: 50px;
   background-color: lightskyblue;
@@ -106,4 +112,99 @@ nav a {
   width: 100%;
   height: 500px;
   font-size: 18px;
+}
+
+.banner {
+  width: 100%;
+  height: 100px;
+  background-color: lightskyblue;
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.shop-section-1 {
+  background-image: url("../assets/images/donuts.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  margin-bottom: 20px;
+}
+
+.shop-section-2 {
+  width: 100%;
+  height: 500px;
+  font-size: 18px;
+}
+
+.banner {
+  width: 100%;
+  height: 100px;
+  background-color: lightskyblue;
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.contact-section-1 {
+  background-image: url("../assets/images/donuts.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  margin-bottom: 20px;
+}
+
+.contact-section-2 {
+  width: 100%;
+  height: 500px;
+  font-size: 18px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+label {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #555;
+}
+
+input[type=email],
+textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  width: 100%;
+}
+
+textarea {
+  resize: none;
+  height: 150px;
+}
+
+.send-btn {
+  padding: 12px 20px;
+  background-color: #87ceeb; /* Sky Light Blue */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.send-btn:hover {
+  background-color: #00bfff; /* Deepen the blue on hover */
 }
